@@ -1,6 +1,6 @@
 {
   "name": "vue",
-  "version": "1.0",
+  "version": "web",
   "description": "webui",
   "main": "index.js",
   "author": "gaoyu",
