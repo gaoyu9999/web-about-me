@@ -1,4 +1,5 @@
 module.exports = {
+    base:'/web-about-me/',
     title: 'Hello VuePress',
     description: 'Just playing around',
     themeConfig: {

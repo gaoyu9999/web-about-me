@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "Hello VuePress",
   "description": "Just playing around",
-  "base": "/",
+  "base": "/web-about-me/",
   "headTags": [],
   "pages": [
     {
