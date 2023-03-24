@@ -33,6 +33,18 @@ export const routes = [
     redirect: "/web/"
   },
   {
+    name: "v-553db0ed",
+    path: "/web/bw/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-553db0ed").then(next)
+    },
+  },
+  {
+    path: "/web/bw/index.html",
+    redirect: "/web/bw/"
+  },
+  {
     name: "v-3bd326aa",
     path: "/web/eu-fy/",
     component: GlobalLayout,
@@ -55,18 +67,6 @@ export const routes = [
   {
     path: "/web/mnjx/index.html",
     redirect: "/web/mnjx/"
-  },
-  {
-    name: "v-553db0ed",
-    path: "/web/bw/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-553db0ed").then(next)
-    },
-  },
-  {
-    path: "/web/bw/index.html",
-    redirect: "/web/bw/"
   },
   {
     name: "v-a0de9366",

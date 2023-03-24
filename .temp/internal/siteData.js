@@ -19,26 +19,9 @@ export const siteData = {
       "title": "Home",
       "frontmatter": {
         "home": true,
-        "heroImage": "/hero.png",
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+        "heroText": "GY 的 个人简介",
+        "actionText": "快速了解 →",
+        "actionLink": "/web/ydxy/"
       },
       "regularPath": "/",
       "relativePath": "README.md",
@@ -52,50 +35,9 @@ export const siteData = {
       "regularPath": "/web/",
       "relativePath": "web/README.md",
       "key": "v-b55f5c00",
-      "path": "/web/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/eu-fy/",
-      "relativePath": "web/eu-fy/README.md",
-      "key": "v-3bd326aa",
-      "path": "/web/eu-fy/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "成航辅营管理端",
-          "slug": "成航辅营管理端"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/mnjx/",
-      "relativePath": "web/mnjx/README.md",
-      "key": "v-5ce0132d",
-      "path": "/web/mnjx/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "模拟教学",
-          "slug": "模拟教学"
-        },
-        {
-          "level": 2,
-          "title": "模拟教学管理端",
-          "slug": "模拟教学管理端"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
-        }
-      ]
+      "path": "/web/",
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
     },
     {
       "frontmatter": {},
@@ -119,7 +61,56 @@ export const siteData = {
           "title": "架构简介",
           "slug": "架构简介"
         }
-      ]
+      ],
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/eu-fy/",
+      "relativePath": "web/eu-fy/README.md",
+      "key": "v-3bd326aa",
+      "path": "/web/eu-fy/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "成航辅营管理端",
+          "slug": "成航辅营管理端"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/mnjx/",
+      "relativePath": "web/mnjx/README.md",
+      "key": "v-5ce0132d",
+      "path": "/web/mnjx/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "模拟教学",
+          "slug": "模拟教学"
+        },
+        {
+          "level": 2,
+          "title": "模拟教学管理端",
+          "slug": "模拟教学管理端"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
     },
     {
       "frontmatter": {},
@@ -138,7 +129,9 @@ export const siteData = {
           "title": "翔宇教育管理端",
           "slug": "翔宇教育管理端"
         }
-      ]
+      ],
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
     }
   ],
   "themeConfig": {
