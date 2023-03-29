@@ -16,7 +16,9 @@ https://www.catatraining.com/#/
 ElementUI+Vue2
 ## 翔宇教育管理端
 项目链接：
+### 项目预览：
 
+![An image](../../static/ydxy.png)
 
 项目技术：
 

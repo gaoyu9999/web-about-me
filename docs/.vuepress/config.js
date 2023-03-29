@@ -54,6 +54,30 @@ module.exports = {
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
       },
+      {
+        title: '中国航信客服工单系统',   // 必要的
+        path: '/web/gd/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+      },
+      {
+        title: '考试系统',   // 必要的
+        path: '/web/ks/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+      },
+      {
+        title: '天津航空B2C官网',   // 必要的
+        path: '/web/tj/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+      },
+      {
+        title: '西部航空B2C官网',   // 必要的
+        path: '/web/xb/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+      },
     ]
   }
 

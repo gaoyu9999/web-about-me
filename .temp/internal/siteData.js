@@ -16,21 +16,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "GY 的 个人简介",
-        "actionText": "快速了解 →",
-        "actionLink": "/web/ydxy/"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-71d4f21d",
-      "path": "/",
-      "lastUpdated": "3/22/2023, 3:57:23 PM",
-      "lastUpdatedTimestamp": 1679471843000
-    },
-    {
       "frontmatter": {},
       "regularPath": "/web/",
       "relativePath": "web/README.md",
@@ -41,29 +26,39 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/bw/",
-      "relativePath": "web/bw/README.md",
-      "key": "v-553db0ed",
-      "path": "/web/bw/",
+      "regularPath": "/web/gd/",
+      "relativePath": "web/gd/README.md",
+      "key": "v-d07ca026",
+      "path": "/web/gd/",
       "headers": [
         {
           "level": 2,
-          "title": "项目链接",
-          "slug": "项目链接"
+          "title": "中国航信客服工单系统",
+          "slug": "中国航信客服工单系统"
         },
         {
           "level": 2,
-          "title": "框架架构图",
-          "slug": "框架架构图"
-        },
-        {
-          "level": 2,
-          "title": "架构简介",
-          "slug": "架构简介"
+          "title": "项目技术",
+          "slug": "项目技术"
         }
-      ],
-      "lastUpdated": "3/24/2023, 3:55:24 PM",
-      "lastUpdatedTimestamp": 1679644524000
+      ]
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "GY 的 个人简介",
+        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
+        "actionText": "快速了解 项目跟新中...→",
+        "actionLink": "/web/ydxy/",
+        "footer": "MIT Licensed | Copyright © 0000-present GY"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-71d4f21d",
+      "path": "/",
+      "lastUpdated": "3/24/2023, 3:58:13 PM",
+      "lastUpdatedTimestamp": 1679644693000
     },
     {
       "frontmatter": {},
@@ -85,6 +80,50 @@ export const siteData = {
       ],
       "lastUpdated": "3/24/2023, 3:55:24 PM",
       "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/ks/",
+      "relativePath": "web/ks/README.md",
+      "key": "v-4344d48d",
+      "path": "/web/ks/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "X考试系统",
+          "slug": "x考试系统"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        },
+        {
+          "level": 2,
+          "title": "普通考试系统桌面端",
+          "slug": "普通考试系统桌面端"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术-2"
+        },
+        {
+          "level": 2,
+          "title": "民航宝典（小程序）",
+          "slug": "民航宝典-小程序"
+        },
+        {
+          "level": 3,
+          "title": "项目预览：",
+          "slug": "项目预览"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术-3"
+        }
+      ]
     },
     {
       "frontmatter": {},
@@ -114,6 +153,70 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/web/tj/",
+      "relativePath": "web/tj/README.md",
+      "key": "v-2cf80ecd",
+      "path": "/web/tj/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "天津航空B2C官网",
+          "slug": "天津航空b2c官网"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/bw/",
+      "relativePath": "web/bw/README.md",
+      "key": "v-553db0ed",
+      "path": "/web/bw/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "项目链接",
+          "slug": "项目链接"
+        },
+        {
+          "level": 2,
+          "title": "框架架构图",
+          "slug": "框架架构图"
+        },
+        {
+          "level": 2,
+          "title": "架构简介",
+          "slug": "架构简介"
+        }
+      ],
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/xb/",
+      "relativePath": "web/xb/README.md",
+      "key": "v-5e2c684d",
+      "path": "/web/xb/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "西部航空B2C官网",
+          "slug": "西部航空b2c官网"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/web/ydxy/",
       "relativePath": "web/ydxy/README.md",
       "key": "v-a0de9366",
@@ -128,6 +231,11 @@ export const siteData = {
           "level": 2,
           "title": "翔宇教育管理端",
           "slug": "翔宇教育管理端"
+        },
+        {
+          "level": 3,
+          "title": "项目预览：",
+          "slug": "项目预览"
         }
       ],
       "lastUpdated": "3/24/2023, 3:55:24 PM",
@@ -164,6 +272,30 @@ export const siteData = {
       {
         "title": "成航辅助营销管理端",
         "path": "/web/eu-fy/",
+        "collapsable": false,
+        "sidebarDepth": 1
+      },
+      {
+        "title": "中国航信客服工单系统",
+        "path": "/web/gd/",
+        "collapsable": false,
+        "sidebarDepth": 1
+      },
+      {
+        "title": "考试系统",
+        "path": "/web/ks/",
+        "collapsable": false,
+        "sidebarDepth": 1
+      },
+      {
+        "title": "天津航空B2C官网",
+        "path": "/web/tj/",
+        "collapsable": false,
+        "sidebarDepth": 1
+      },
+      {
+        "title": "西部航空B2C官网",
+        "path": "/web/xb/",
         "collapsable": false,
         "sidebarDepth": 1
       }
