@@ -17,10 +17,48 @@ export const siteData = {
   "pages": [
     {
       "frontmatter": {},
-      "regularPath": "/web/",
-      "relativePath": "web/README.md",
-      "key": "v-b55f5c00",
-      "path": "/web/",
+      "regularPath": "/web/eu-fy/",
+      "relativePath": "web/eu-fy/README.md",
+      "key": "v-3bd326aa",
+      "path": "/web/eu-fy/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "成航辅营管理端",
+          "slug": "成航辅营管理端"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/bw/",
+      "relativePath": "web/bw/README.md",
+      "key": "v-553db0ed",
+      "path": "/web/bw/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "项目链接",
+          "slug": "项目链接"
+        },
+        {
+          "level": 2,
+          "title": "框架架构图",
+          "slug": "框架架构图"
+        },
+        {
+          "level": 2,
+          "title": "架构简介",
+          "slug": "架构简介"
+        }
+      ],
       "lastUpdated": "3/24/2023, 3:55:24 PM",
       "lastUpdatedTimestamp": 1679644524000
     },
@@ -41,36 +79,26 @@ export const siteData = {
           "title": "项目技术",
           "slug": "项目技术"
         }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "GY 的 个人简介",
-        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
-        "actionText": "快速了解 项目跟新中...→",
-        "actionLink": "/web/ydxy/",
-        "footer": "MIT Licensed | Copyright © 0000-present GY"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-71d4f21d",
-      "path": "/",
-      "lastUpdated": "3/24/2023, 3:58:13 PM",
-      "lastUpdatedTimestamp": 1679644693000
+      ],
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/eu-fy/",
-      "relativePath": "web/eu-fy/README.md",
-      "key": "v-3bd326aa",
-      "path": "/web/eu-fy/",
+      "regularPath": "/web/mnjx/",
+      "relativePath": "web/mnjx/README.md",
+      "key": "v-5ce0132d",
+      "path": "/web/mnjx/",
       "headers": [
         {
           "level": 2,
-          "title": "成航辅营管理端",
-          "slug": "成航辅营管理端"
+          "title": "模拟教学",
+          "slug": "模拟教学"
+        },
+        {
+          "level": 2,
+          "title": "模拟教学管理端",
+          "slug": "模拟教学管理端"
         },
         {
           "level": 2,
@@ -80,6 +108,22 @@ export const siteData = {
       ],
       "lastUpdated": "3/24/2023, 3:55:24 PM",
       "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "GY 的 个人简介",
+        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
+        "actionText": "快速了解 项目跟新中...→",
+        "actionLink": "/web/ydxy/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-71d4f21d",
+      "path": "/",
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
     },
     {
       "frontmatter": {},
@@ -123,33 +167,9 @@ export const siteData = {
           "title": "项目技术",
           "slug": "项目技术-3"
         }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/mnjx/",
-      "relativePath": "web/mnjx/README.md",
-      "key": "v-5ce0132d",
-      "path": "/web/mnjx/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "模拟教学",
-          "slug": "模拟教学"
-        },
-        {
-          "level": 2,
-          "title": "模拟教学管理端",
-          "slug": "模拟教学管理端"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
-        }
       ],
-      "lastUpdated": "3/24/2023, 3:55:24 PM",
-      "lastUpdatedTimestamp": 1679644524000
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
     },
     {
       "frontmatter": {},
@@ -168,52 +188,18 @@ export const siteData = {
           "title": "项目技术",
           "slug": "项目技术"
         }
-      ]
+      ],
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/bw/",
-      "relativePath": "web/bw/README.md",
-      "key": "v-553db0ed",
-      "path": "/web/bw/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "项目链接",
-          "slug": "项目链接"
-        },
-        {
-          "level": 2,
-          "title": "框架架构图",
-          "slug": "框架架构图"
-        },
-        {
-          "level": 2,
-          "title": "架构简介",
-          "slug": "架构简介"
-        }
-      ],
+      "regularPath": "/web/",
+      "relativePath": "web/README.md",
+      "key": "v-b55f5c00",
+      "path": "/web/",
       "lastUpdated": "3/24/2023, 3:55:24 PM",
       "lastUpdatedTimestamp": 1679644524000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/xb/",
-      "relativePath": "web/xb/README.md",
-      "key": "v-5e2c684d",
-      "path": "/web/xb/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "西部航空B2C官网",
-          "slug": "西部航空b2c官网"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
-        }
-      ]
     },
     {
       "frontmatter": {},
@@ -238,8 +224,29 @@ export const siteData = {
           "slug": "项目预览"
         }
       ],
-      "lastUpdated": "3/24/2023, 3:55:24 PM",
-      "lastUpdatedTimestamp": 1679644524000
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/xb/",
+      "relativePath": "web/xb/README.md",
+      "key": "v-5e2c684d",
+      "path": "/web/xb/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "西部航空B2C官网",
+          "slug": "西部航空b2c官网"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
     }
   ],
   "themeConfig": {
