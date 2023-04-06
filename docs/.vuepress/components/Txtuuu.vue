@@ -10,7 +10,6 @@ export default {
     }
   },
   mounted(){
-    console.log();
      this.height=window.innerHeight-320
   }
 }

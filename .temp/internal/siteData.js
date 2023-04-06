@@ -16,6 +16,84 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "GY 的 个人简介",
+        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
+        "actionText": "快速了解 项目跟新中...→",
+        "actionLink": "/web/ydxy/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-71d4f21d",
+      "path": "/",
+      "lastUpdated": "3/30/2023, 2:26:28 PM",
+      "lastUpdatedTimestamp": 1680157588000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/share/hkgd/",
+      "relativePath": "share/hkgd/README.md",
+      "key": "v-37cfbc2d",
+      "path": "/share/hkgd/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "如何使用",
+          "slug": "如何使用"
+        },
+        {
+          "level": 2,
+          "title": "框架架构图",
+          "slug": "框架架构图"
+        },
+        {
+          "level": 2,
+          "title": "axios封装",
+          "slug": "axios封装"
+        },
+        {
+          "level": 2,
+          "title": "架构优势分析",
+          "slug": "架构优势分析"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/share/nginx/",
+      "relativePath": "share/nginx/README.md",
+      "key": "v-4a0a4881",
+      "path": "/share/nginx/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "如何使用",
+          "slug": "如何使用"
+        },
+        {
+          "level": 2,
+          "title": "如何解决跨域",
+          "slug": "如何解决跨域"
+        },
+        {
+          "level": 3,
+          "title": "配置代理",
+          "slug": "配置代理"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/",
+      "relativePath": "web/README.md",
+      "key": "v-b55f5c00",
+      "path": "/web/",
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
+    },
+    {
       "frontmatter": {},
       "regularPath": "/web/eu-fy/",
       "relativePath": "web/eu-fy/README.md",
@@ -110,18 +188,49 @@ export const siteData = {
       "lastUpdatedTimestamp": 1679644524000
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "GY 的 个人简介",
-        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
-        "actionText": "快速了解 项目跟新中...→",
-        "actionLink": "/web/ydxy/"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-71d4f21d",
-      "path": "/",
+      "frontmatter": {},
+      "regularPath": "/web/tj/",
+      "relativePath": "web/tj/README.md",
+      "key": "v-2cf80ecd",
+      "path": "/web/tj/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "天津航空B2C官网",
+          "slug": "天津航空b2c官网"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/ydxy/",
+      "relativePath": "web/ydxy/README.md",
+      "key": "v-a0de9366",
+      "path": "/web/ydxy/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "翔宇教育官网",
+          "slug": "翔宇教育官网"
+        },
+        {
+          "level": 2,
+          "title": "翔宇教育管理端",
+          "slug": "翔宇教育管理端"
+        },
+        {
+          "level": 3,
+          "title": "项目预览：",
+          "slug": "项目预览"
+        }
+      ],
       "lastUpdated": "3/29/2023, 3:45:44 PM",
       "lastUpdatedTimestamp": 1680075944000
     },
@@ -173,62 +282,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/tj/",
-      "relativePath": "web/tj/README.md",
-      "key": "v-2cf80ecd",
-      "path": "/web/tj/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "天津航空B2C官网",
-          "slug": "天津航空b2c官网"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
-        }
-      ],
-      "lastUpdated": "3/29/2023, 3:45:44 PM",
-      "lastUpdatedTimestamp": 1680075944000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/",
-      "relativePath": "web/README.md",
-      "key": "v-b55f5c00",
-      "path": "/web/",
-      "lastUpdated": "3/24/2023, 3:55:24 PM",
-      "lastUpdatedTimestamp": 1679644524000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/ydxy/",
-      "relativePath": "web/ydxy/README.md",
-      "key": "v-a0de9366",
-      "path": "/web/ydxy/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "翔宇教育官网",
-          "slug": "翔宇教育官网"
-        },
-        {
-          "level": 2,
-          "title": "翔宇教育管理端",
-          "slug": "翔宇教育管理端"
-        },
-        {
-          "level": 3,
-          "title": "项目预览：",
-          "slug": "项目预览"
-        }
-      ],
-      "lastUpdated": "3/29/2023, 3:45:44 PM",
-      "lastUpdatedTimestamp": 1680075944000
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/web/xb/",
       "relativePath": "web/xb/README.md",
       "key": "v-5e2c684d",
@@ -255,56 +308,88 @@ export const siteData = {
     "nav": [
       {
         "text": "前端项目",
-        "link": "/web/"
+        "link": "/web/ydxy/"
+      },
+      {
+        "text": "技术分享",
+        "link": "/share/hkgd/"
       }
     ],
     "sidebar": [
       {
-        "title": "云端学院",
+        "title": "前端项目",
         "path": "/web/ydxy/",
-        "collapsable": false,
-        "sidebarDepth": 1
+        "collapsable": true,
+        "sidebarDepth": 1,
+        "children": [
+          {
+            "title": "云端学院",
+            "path": "/web/ydxy/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          },
+          {
+            "title": "模拟教学",
+            "path": "/web/mnjx/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          },
+          {
+            "title": "TRP航司合约标准版",
+            "path": "/web/bw/",
+            "children": []
+          },
+          {
+            "title": "成航辅助营销管理端",
+            "path": "/web/eu-fy/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          },
+          {
+            "title": "中国航信客服工单系统",
+            "path": "/web/gd/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          },
+          {
+            "title": "考试系统",
+            "path": "/web/ks/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          },
+          {
+            "title": "天津航空B2C官网",
+            "path": "/web/tj/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          },
+          {
+            "title": "西部航空B2C官网",
+            "path": "/web/xb/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          }
+        ]
       },
       {
-        "title": "模拟教学",
-        "path": "/web/mnjx/",
+        "title": "技术分享",
+        "path": "/share/hkgd/",
         "collapsable": false,
-        "sidebarDepth": 1
-      },
-      {
-        "title": "TRP航司合约标准版",
-        "path": "/web/bw/",
-        "children": []
-      },
-      {
-        "title": "成航辅助营销管理端",
-        "path": "/web/eu-fy/",
-        "collapsable": false,
-        "sidebarDepth": 1
-      },
-      {
-        "title": "中国航信客服工单系统",
-        "path": "/web/gd/",
-        "collapsable": false,
-        "sidebarDepth": 1
-      },
-      {
-        "title": "考试系统",
-        "path": "/web/ks/",
-        "collapsable": false,
-        "sidebarDepth": 1
-      },
-      {
-        "title": "天津航空B2C官网",
-        "path": "/web/tj/",
-        "collapsable": false,
-        "sidebarDepth": 1
-      },
-      {
-        "title": "西部航空B2C官网",
-        "path": "/web/xb/",
-        "collapsable": false,
-        "sidebarDepth": 1
+        "sidebarDepth": 1,
+        "children": [
+          {
+            "title": "客服工单系统-航空工单ajax请求封装",
+            "path": "/share/hkgd/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          },
+          {
+            "title": "nginx部署",
+            "path": "/share/nginx/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          }
+        ]
       }
     ]
   }

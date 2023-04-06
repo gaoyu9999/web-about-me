@@ -14,8 +14,8 @@ module.exports = {
     sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
     nav: [
-      { text: '前端项目', link: '/web/' }, // 内部链接 以docs为根目录
-      // { text: '博客', link: 'http://obkoro1.com/' }, // 外部链接
+      { text: '前端项目', link: '/web/ydxy/' }, // 内部链接 以docs为根目录
+      { text: '技术分享', link: '/share/hkgd/' }, // 外部链接
       // 下拉列表
       // {
       //   text: 'GitHub',
@@ -31,53 +31,84 @@ module.exports = {
     ,
     sidebar: [
       {
-        title: '云端学院',   // 必要的
+        title: '前端项目',   // 必要的
         path: '/web/ydxy/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
-      {
-        title: '模拟教学',   // 必要的
-        path: '/web/mnjx/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
-      {
-        title: 'TRP航司合约标准版',   // 必要的
-        path: '/web/bw/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        children: [
+        children:[
+          {
+            title: '云端学院',   // 必要的
+            path: '/web/ydxy/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          {
+            title: '模拟教学',   // 必要的
+            path: '/web/mnjx/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          {
+            title: 'TRP航司合约标准版',   // 必要的
+            path: '/web/bw/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            children: [
+            ]
+          },
+          {
+            title: '成航辅助营销管理端',   // 必要的
+            path: '/web/eu-fy/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          {
+            title: '中国航信客服工单系统',   // 必要的
+            path: '/web/gd/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          {
+            title: '考试系统',   // 必要的
+            path: '/web/ks/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          {
+            title: '天津航空B2C官网',   // 必要的
+            path: '/web/tj/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          {
+            title: '西部航空B2C官网',   // 必要的
+            path: '/web/xb/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
         ]
       },
       {
-        title: '成航辅助营销管理端',   // 必要的
-        path: '/web/eu-fy/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+        title: '技术分享',   // 必要的
+        path: '/share/hkgd/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
-      {
-        title: '中国航信客服工单系统',   // 必要的
-        path: '/web/gd/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
-      {
-        title: '考试系统',   // 必要的
-        path: '/web/ks/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
-      {
-        title: '天津航空B2C官网',   // 必要的
-        path: '/web/tj/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
-      {
-        title: '西部航空B2C官网',   // 必要的
-        path: '/web/xb/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-      },
+        children:[
+          {
+            title: '客服工单系统-航空工单ajax请求封装',   // 必要的
+            path: '/share/hkgd/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          {
+            title: 'nginx部署',   // 必要的
+            path: '/share/nginx/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          }
+
+
+        ]
+      }
+      
     ]
   }
 

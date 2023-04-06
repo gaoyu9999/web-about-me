@@ -9,6 +9,54 @@ import GlobalLayout from "D:\\deskTools\\blog\\vuepressdir\\node_modules\\@vuepr
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-71d4f21d",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-71d4f21d").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-37cfbc2d",
+    path: "/share/hkgd/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-37cfbc2d").then(next)
+    },
+  },
+  {
+    path: "/share/hkgd/index.html",
+    redirect: "/share/hkgd/"
+  },
+  {
+    name: "v-4a0a4881",
+    path: "/share/nginx/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4a0a4881").then(next)
+    },
+  },
+  {
+    path: "/share/nginx/index.html",
+    redirect: "/share/nginx/"
+  },
+  {
+    name: "v-b55f5c00",
+    path: "/web/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b55f5c00").then(next)
+    },
+  },
+  {
+    path: "/web/index.html",
+    redirect: "/web/"
+  },
+  {
     name: "v-3bd326aa",
     path: "/web/eu-fy/",
     component: GlobalLayout,
@@ -57,30 +105,6 @@ export const routes = [
     redirect: "/web/mnjx/"
   },
   {
-    name: "v-71d4f21d",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-71d4f21d").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
-    name: "v-4344d48d",
-    path: "/web/ks/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4344d48d").then(next)
-    },
-  },
-  {
-    path: "/web/ks/index.html",
-    redirect: "/web/ks/"
-  },
-  {
     name: "v-2cf80ecd",
     path: "/web/tj/",
     component: GlobalLayout,
@@ -93,18 +117,6 @@ export const routes = [
     redirect: "/web/tj/"
   },
   {
-    name: "v-b55f5c00",
-    path: "/web/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b55f5c00").then(next)
-    },
-  },
-  {
-    path: "/web/index.html",
-    redirect: "/web/"
-  },
-  {
     name: "v-a0de9366",
     path: "/web/ydxy/",
     component: GlobalLayout,
@@ -115,6 +127,18 @@ export const routes = [
   {
     path: "/web/ydxy/index.html",
     redirect: "/web/ydxy/"
+  },
+  {
+    name: "v-4344d48d",
+    path: "/web/ks/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4344d48d").then(next)
+    },
+  },
+  {
+    path: "/web/ks/index.html",
+    redirect: "/web/ks/"
   },
   {
     name: "v-5e2c684d",
