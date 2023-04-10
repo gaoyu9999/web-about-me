@@ -98,13 +98,40 @@ module.exports = {
             collapsable: false, // 可选的, 默认值是 true,
             sidebarDepth: 1,    // 可选的, 默认值是 1
           },
+          // 部署
           {
-            title: 'nginx部署',   // 必要的
+            title: '项目部署-Nginx',   // 必要的
             path: '/share/nginx/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: false, // 可选的, 默认值是 true,
             sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          {
+            title: '项目部署-Linux',   // 必要的
+            path: '/share/linux/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+          },
+          // JS
+          {
+            title: 'JS基础',   // 必要的
+            path: '/share/js/sjjg/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+            children:[
+              {
+                title: '数据结构与算法',   // 必要的
+                path: '/share/js/sjjg/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+              },
+              {
+                title: 'var-let',   // 必要的
+                path: '/share/js/var-let/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                collapsable: false, // 可选的, 默认值是 true,
+                sidebarDepth: 1,    // 可选的, 默认值是 1
+              },
+            ]
           }
-
 
         ]
       }

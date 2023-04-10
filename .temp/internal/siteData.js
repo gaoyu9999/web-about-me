@@ -16,22 +16,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "GY 的 个人简介",
-        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
-        "actionText": "快速了解 项目跟新中...→",
-        "actionLink": "/web/ydxy/"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-71d4f21d",
-      "path": "/",
-      "lastUpdated": "3/30/2023, 2:26:28 PM",
-      "lastUpdatedTimestamp": 1680157588000
-    },
-    {
       "frontmatter": {},
       "regularPath": "/share/hkgd/",
       "relativePath": "share/hkgd/README.md",
@@ -58,6 +42,52 @@ export const siteData = {
           "title": "架构优势分析",
           "slug": "架构优势分析"
         }
+      ],
+      "lastUpdated": "4/6/2023, 5:29:18 PM",
+      "lastUpdatedTimestamp": 1680773358000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/share/js/var-let/",
+      "relativePath": "share/js/var-let/README.md",
+      "key": "v-b5841b80",
+      "path": "/share/js/var-let/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "示例",
+          "slug": "示例"
+        }
+      ]
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "GY 的 个人简介",
+        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
+        "actionText": "快速了解 项目跟新中...→",
+        "actionLink": "/web/ydxy/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-71d4f21d",
+      "path": "/",
+      "lastUpdated": "3/30/2023, 2:26:28 PM",
+      "lastUpdatedTimestamp": 1680157588000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/share/js/sjjg/",
+      "relativePath": "share/js/sjjg/README.md",
+      "key": "v-ca051d18",
+      "path": "/share/js/sjjg/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数据结构",
+          "slug": "数据结构"
+        }
       ]
     },
     {
@@ -82,7 +112,9 @@ export const siteData = {
           "title": "配置代理",
           "slug": "配置代理"
         }
-      ]
+      ],
+      "lastUpdated": "4/6/2023, 5:29:18 PM",
+      "lastUpdatedTimestamp": 1680773358000
     },
     {
       "frontmatter": {},
@@ -90,53 +122,6 @@ export const siteData = {
       "relativePath": "web/README.md",
       "key": "v-b55f5c00",
       "path": "/web/",
-      "lastUpdated": "3/24/2023, 3:55:24 PM",
-      "lastUpdatedTimestamp": 1679644524000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/eu-fy/",
-      "relativePath": "web/eu-fy/README.md",
-      "key": "v-3bd326aa",
-      "path": "/web/eu-fy/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "成航辅营管理端",
-          "slug": "成航辅营管理端"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
-        }
-      ],
-      "lastUpdated": "3/24/2023, 3:55:24 PM",
-      "lastUpdatedTimestamp": 1679644524000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/bw/",
-      "relativePath": "web/bw/README.md",
-      "key": "v-553db0ed",
-      "path": "/web/bw/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "项目链接",
-          "slug": "项目链接"
-        },
-        {
-          "level": 2,
-          "title": "框架架构图",
-          "slug": "框架架构图"
-        },
-        {
-          "level": 2,
-          "title": "架构简介",
-          "slug": "架构简介"
-        }
-      ],
       "lastUpdated": "3/24/2023, 3:55:24 PM",
       "lastUpdatedTimestamp": 1679644524000
     },
@@ -163,76 +148,48 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/mnjx/",
-      "relativePath": "web/mnjx/README.md",
-      "key": "v-5ce0132d",
-      "path": "/web/mnjx/",
+      "regularPath": "/share/linux/",
+      "relativePath": "share/linux/README.md",
+      "key": "v-7e4ff3cd",
+      "path": "/share/linux/",
       "headers": [
         {
           "level": 2,
-          "title": "模拟教学",
-          "slug": "模拟教学"
+          "title": "LINUX常用命令",
+          "slug": "linux常用命令"
         },
         {
           "level": 2,
-          "title": "模拟教学管理端",
-          "slug": "模拟教学管理端"
+          "title": "PM2",
+          "slug": "pm2"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/bw/",
+      "relativePath": "web/bw/README.md",
+      "key": "v-553db0ed",
+      "path": "/web/bw/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "项目链接",
+          "slug": "项目链接"
         },
         {
           "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
+          "title": "框架架构图",
+          "slug": "框架架构图"
+        },
+        {
+          "level": 2,
+          "title": "架构简介",
+          "slug": "架构简介"
         }
       ],
       "lastUpdated": "3/24/2023, 3:55:24 PM",
       "lastUpdatedTimestamp": 1679644524000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/tj/",
-      "relativePath": "web/tj/README.md",
-      "key": "v-2cf80ecd",
-      "path": "/web/tj/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "天津航空B2C官网",
-          "slug": "天津航空b2c官网"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
-        }
-      ],
-      "lastUpdated": "3/29/2023, 3:45:44 PM",
-      "lastUpdatedTimestamp": 1680075944000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/ydxy/",
-      "relativePath": "web/ydxy/README.md",
-      "key": "v-a0de9366",
-      "path": "/web/ydxy/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "翔宇教育官网",
-          "slug": "翔宇教育官网"
-        },
-        {
-          "level": 2,
-          "title": "翔宇教育管理端",
-          "slug": "翔宇教育管理端"
-        },
-        {
-          "level": 3,
-          "title": "项目预览：",
-          "slug": "项目预览"
-        }
-      ],
-      "lastUpdated": "3/29/2023, 3:45:44 PM",
-      "lastUpdatedTimestamp": 1680075944000
     },
     {
       "frontmatter": {},
@@ -282,6 +239,53 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/web/eu-fy/",
+      "relativePath": "web/eu-fy/README.md",
+      "key": "v-3bd326aa",
+      "path": "/web/eu-fy/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "成航辅营管理端",
+          "slug": "成航辅营管理端"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/mnjx/",
+      "relativePath": "web/mnjx/README.md",
+      "key": "v-5ce0132d",
+      "path": "/web/mnjx/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "模拟教学",
+          "slug": "模拟教学"
+        },
+        {
+          "level": 2,
+          "title": "模拟教学管理端",
+          "slug": "模拟教学管理端"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/web/xb/",
       "relativePath": "web/xb/README.md",
       "key": "v-5e2c684d",
@@ -296,6 +300,53 @@ export const siteData = {
           "level": 2,
           "title": "项目技术",
           "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/tj/",
+      "relativePath": "web/tj/README.md",
+      "key": "v-2cf80ecd",
+      "path": "/web/tj/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "天津航空B2C官网",
+          "slug": "天津航空b2c官网"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/ydxy/",
+      "relativePath": "web/ydxy/README.md",
+      "key": "v-a0de9366",
+      "path": "/web/ydxy/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "翔宇教育官网",
+          "slug": "翔宇教育官网"
+        },
+        {
+          "level": 2,
+          "title": "翔宇教育管理端",
+          "slug": "翔宇教育管理端"
+        },
+        {
+          "level": 3,
+          "title": "项目预览：",
+          "slug": "项目预览"
         }
       ],
       "lastUpdated": "3/29/2023, 3:45:44 PM",
@@ -384,10 +435,36 @@ export const siteData = {
             "sidebarDepth": 1
           },
           {
-            "title": "nginx部署",
+            "title": "项目部署-Nginx",
             "path": "/share/nginx/",
             "collapsable": false,
             "sidebarDepth": 1
+          },
+          {
+            "title": "项目部署-Linux",
+            "path": "/share/linux/",
+            "collapsable": false,
+            "sidebarDepth": 1
+          },
+          {
+            "title": "JS基础",
+            "path": "/share/js/sjjg/",
+            "collapsable": false,
+            "sidebarDepth": 1,
+            "children": [
+              {
+                "title": "数据结构与算法",
+                "path": "/share/js/sjjg/",
+                "collapsable": false,
+                "sidebarDepth": 1
+              },
+              {
+                "title": "var-let",
+                "path": "/share/js/var-let/",
+                "collapsable": false,
+                "sidebarDepth": 1
+              }
+            ]
           }
         ]
       }

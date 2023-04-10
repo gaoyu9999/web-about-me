@@ -1,8 +1,8 @@
 ::: tip
-客服工单系统-航空工单ajax请求封装优化方案。
+nginx
 
 :::
-封装方案参考VUE-TEMPLATE-ADMIN
+
 
 ## 如何使用
 nginx-1.23.2\html\airui4
