@@ -17,6 +17,27 @@ export const siteData = {
   "pages": [
     {
       "frontmatter": {},
+      "regularPath": "/share/linux/",
+      "relativePath": "share/linux/README.md",
+      "key": "v-7e4ff3cd",
+      "path": "/share/linux/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "LINUX常用命令",
+          "slug": "linux常用命令"
+        },
+        {
+          "level": 2,
+          "title": "PM2",
+          "slug": "pm2"
+        }
+      ],
+      "lastUpdated": "4/10/2023, 2:42:03 PM",
+      "lastUpdatedTimestamp": 1681108923000
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/share/hkgd/",
       "relativePath": "share/hkgd/README.md",
       "key": "v-37cfbc2d",
@@ -48,15 +69,36 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/share/js/var-let/",
-      "relativePath": "share/js/var-let/README.md",
-      "key": "v-b5841b80",
-      "path": "/share/js/var-let/",
+      "regularPath": "/share/js/sjjg/",
+      "relativePath": "share/js/sjjg/README.md",
+      "key": "v-ca051d18",
+      "path": "/share/js/sjjg/",
       "headers": [
         {
           "level": 2,
-          "title": "示例",
-          "slug": "示例"
+          "title": "数据结构",
+          "slug": "数据结构"
+        }
+      ],
+      "lastUpdated": "4/10/2023, 2:42:03 PM",
+      "lastUpdatedTimestamp": 1681108923000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/share/next-ssr/",
+      "relativePath": "share/next-ssr/README.md",
+      "key": "v-d6487da6",
+      "path": "/share/next-ssr/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "使用时机",
+          "slug": "使用时机"
+        },
+        {
+          "level": 2,
+          "title": "获取数据",
+          "slug": "获取数据"
         }
       ]
     },
@@ -78,46 +120,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/share/js/sjjg/",
-      "relativePath": "share/js/sjjg/README.md",
-      "key": "v-ca051d18",
-      "path": "/share/js/sjjg/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "数据结构",
-          "slug": "数据结构"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/share/nginx/",
-      "relativePath": "share/nginx/README.md",
-      "key": "v-4a0a4881",
-      "path": "/share/nginx/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "如何使用",
-          "slug": "如何使用"
-        },
-        {
-          "level": 2,
-          "title": "如何解决跨域",
-          "slug": "如何解决跨域"
-        },
-        {
-          "level": 3,
-          "title": "配置代理",
-          "slug": "配置代理"
-        }
-      ],
-      "lastUpdated": "4/6/2023, 5:29:18 PM",
-      "lastUpdatedTimestamp": 1680773358000
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/web/",
       "relativePath": "web/README.md",
       "key": "v-b55f5c00",
@@ -127,15 +129,15 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/gd/",
-      "relativePath": "web/gd/README.md",
-      "key": "v-d07ca026",
-      "path": "/web/gd/",
+      "regularPath": "/web/eu-fy/",
+      "relativePath": "web/eu-fy/README.md",
+      "key": "v-3bd326aa",
+      "path": "/web/eu-fy/",
       "headers": [
         {
           "level": 2,
-          "title": "中国航信客服工单系统",
-          "slug": "中国航信客服工单系统"
+          "title": "成航辅营管理端",
+          "slug": "成航辅营管理端"
         },
         {
           "level": 2,
@@ -143,27 +145,24 @@ export const siteData = {
           "slug": "项目技术"
         }
       ],
-      "lastUpdated": "3/29/2023, 3:45:44 PM",
-      "lastUpdatedTimestamp": 1680075944000
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
     },
     {
       "frontmatter": {},
-      "regularPath": "/share/linux/",
-      "relativePath": "share/linux/README.md",
-      "key": "v-7e4ff3cd",
-      "path": "/share/linux/",
+      "regularPath": "/share/js/var-let/",
+      "relativePath": "share/js/var-let/README.md",
+      "key": "v-b5841b80",
+      "path": "/share/js/var-let/",
       "headers": [
         {
           "level": 2,
-          "title": "LINUX常用命令",
-          "slug": "linux常用命令"
-        },
-        {
-          "level": 2,
-          "title": "PM2",
-          "slug": "pm2"
+          "title": "示例",
+          "slug": "示例"
         }
-      ]
+      ],
+      "lastUpdated": "4/10/2023, 2:42:03 PM",
+      "lastUpdatedTimestamp": 1681108923000
     },
     {
       "frontmatter": {},
@@ -239,24 +238,29 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/eu-fy/",
-      "relativePath": "web/eu-fy/README.md",
-      "key": "v-3bd326aa",
-      "path": "/web/eu-fy/",
+      "regularPath": "/share/nginx/",
+      "relativePath": "share/nginx/README.md",
+      "key": "v-4a0a4881",
+      "path": "/share/nginx/",
       "headers": [
         {
           "level": 2,
-          "title": "成航辅营管理端",
-          "slug": "成航辅营管理端"
+          "title": "如何使用",
+          "slug": "如何使用"
         },
         {
           "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
+          "title": "如何解决跨域",
+          "slug": "如何解决跨域"
+        },
+        {
+          "level": 3,
+          "title": "配置代理",
+          "slug": "配置代理"
         }
       ],
-      "lastUpdated": "3/24/2023, 3:55:24 PM",
-      "lastUpdatedTimestamp": 1679644524000
+      "lastUpdated": "4/10/2023, 2:42:03 PM",
+      "lastUpdatedTimestamp": 1681108923000
     },
     {
       "frontmatter": {},
@@ -286,15 +290,15 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/xb/",
-      "relativePath": "web/xb/README.md",
-      "key": "v-5e2c684d",
-      "path": "/web/xb/",
+      "regularPath": "/web/gd/",
+      "relativePath": "web/gd/README.md",
+      "key": "v-d07ca026",
+      "path": "/web/gd/",
       "headers": [
         {
           "level": 2,
-          "title": "西部航空B2C官网",
-          "slug": "西部航空b2c官网"
+          "title": "中国航信客服工单系统",
+          "slug": "中国航信客服工单系统"
         },
         {
           "level": 2,
@@ -316,6 +320,27 @@ export const siteData = {
           "level": 2,
           "title": "天津航空B2C官网",
           "slug": "天津航空b2c官网"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
+        }
+      ],
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/xb/",
+      "relativePath": "web/xb/README.md",
+      "key": "v-5e2c684d",
+      "path": "/web/xb/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "西部航空B2C官网",
+          "slug": "西部航空b2c官网"
         },
         {
           "level": 2,
@@ -449,7 +474,7 @@ export const siteData = {
           {
             "title": "JS基础",
             "path": "/share/js/sjjg/",
-            "collapsable": false,
+            "collapsable": true,
             "sidebarDepth": 1,
             "children": [
               {
@@ -461,6 +486,20 @@ export const siteData = {
               {
                 "title": "var-let",
                 "path": "/share/js/var-let/",
+                "collapsable": false,
+                "sidebarDepth": 1
+              }
+            ]
+          },
+          {
+            "title": "SEO优化",
+            "path": "/share/next-ssr/",
+            "collapsable": false,
+            "sidebarDepth": 1,
+            "children": [
+              {
+                "title": "SSR与静态生成",
+                "path": "/share/next-ssr/",
                 "collapsable": false,
                 "sidebarDepth": 1
               }
