@@ -133,13 +133,13 @@ module.exports = {
             ]
           },
           {
-            title: 'SEO优化',   // 必要的
+            title: 'SSR',   // 必要的
             path: '/share/next-ssr/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             collapsable: false, // 可选的, 默认值是 true,
             sidebarDepth: 1,    // 可选的, 默认值是 1
             children:[
               {
-                title: 'SSR与静态生成',   // 必要的
+                title: 'vue-cli&nextjs',   // 必要的
                 path: '/share/next-ssr/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 1, 

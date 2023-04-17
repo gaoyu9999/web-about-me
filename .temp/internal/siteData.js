@@ -16,21 +16,48 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "GY 的 个人简介",
+        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
+        "actionText": "快速了解 项目跟新中...→",
+        "actionLink": "/web/ydxy/"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-71d4f21d",
+      "path": "/",
+      "lastUpdated": "3/30/2023, 2:26:28 PM",
+      "lastUpdatedTimestamp": 1680157588000
+    },
+    {
       "frontmatter": {},
-      "regularPath": "/share/linux/",
-      "relativePath": "share/linux/README.md",
-      "key": "v-7e4ff3cd",
-      "path": "/share/linux/",
+      "regularPath": "/share/js/sjjg/",
+      "relativePath": "share/js/sjjg/README.md",
+      "key": "v-ca051d18",
+      "path": "/share/js/sjjg/",
       "headers": [
         {
           "level": 2,
-          "title": "LINUX常用命令",
-          "slug": "linux常用命令"
-        },
+          "title": "数据结构",
+          "slug": "数据结构"
+        }
+      ],
+      "lastUpdated": "4/10/2023, 2:42:03 PM",
+      "lastUpdatedTimestamp": 1681108923000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/share/js/var-let/",
+      "relativePath": "share/js/var-let/README.md",
+      "key": "v-b5841b80",
+      "path": "/share/js/var-let/",
+      "headers": [
         {
           "level": 2,
-          "title": "PM2",
-          "slug": "pm2"
+          "title": "示例",
+          "slug": "示例"
         }
       ],
       "lastUpdated": "4/10/2023, 2:42:03 PM",
@@ -69,27 +96,46 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/share/js/sjjg/",
-      "relativePath": "share/js/sjjg/README.md",
-      "key": "v-ca051d18",
-      "path": "/share/js/sjjg/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "数据结构",
-          "slug": "数据结构"
-        }
-      ],
-      "lastUpdated": "4/10/2023, 2:42:03 PM",
-      "lastUpdatedTimestamp": 1681108923000
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/share/next-ssr/",
       "relativePath": "share/next-ssr/README.md",
       "key": "v-d6487da6",
       "path": "/share/next-ssr/",
       "headers": [
+        {
+          "level": 2,
+          "title": "ROUTER创建方式",
+          "slug": "router创建方式"
+        },
+        {
+          "level": 2,
+          "title": "ROUTER调用",
+          "slug": "router调用"
+        },
+        {
+          "level": 2,
+          "title": "客户端挂载",
+          "slug": "客户端挂载"
+        },
+        {
+          "level": 2,
+          "title": "服务端激活",
+          "slug": "服务端激活"
+        },
+        {
+          "level": 2,
+          "title": "node脚本-拦截 返回ssr",
+          "slug": "node脚本-拦截-返回ssr"
+        },
+        {
+          "level": 2,
+          "title": "webpack脚本",
+          "slug": "webpack脚本"
+        },
+        {
+          "level": 2,
+          "title": "nextjs相关",
+          "slug": "nextjs相关"
+        },
         {
           "level": 2,
           "title": "使用时机",
@@ -100,23 +146,56 @@ export const siteData = {
           "title": "获取数据",
           "slug": "获取数据"
         }
-      ]
+      ],
+      "lastUpdated": "4/12/2023, 4:48:08 PM",
+      "lastUpdatedTimestamp": 1681289288000
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "GY 的 个人简介",
-        "tagline": "官网项目可直接访问，管理端项目可查看预览图片，部分内网项目无法查看。",
-        "actionText": "快速了解 项目跟新中...→",
-        "actionLink": "/web/ydxy/"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-71d4f21d",
-      "path": "/",
-      "lastUpdated": "3/30/2023, 2:26:28 PM",
-      "lastUpdatedTimestamp": 1680157588000
+      "frontmatter": {},
+      "regularPath": "/share/linux/",
+      "relativePath": "share/linux/README.md",
+      "key": "v-7e4ff3cd",
+      "path": "/share/linux/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "LINUX常用命令",
+          "slug": "linux常用命令"
+        },
+        {
+          "level": 2,
+          "title": "PM2",
+          "slug": "pm2"
+        }
+      ],
+      "lastUpdated": "4/10/2023, 2:42:03 PM",
+      "lastUpdatedTimestamp": 1681108923000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/share/nginx/",
+      "relativePath": "share/nginx/README.md",
+      "key": "v-4a0a4881",
+      "path": "/share/nginx/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "如何使用",
+          "slug": "如何使用"
+        },
+        {
+          "level": 2,
+          "title": "如何解决跨域",
+          "slug": "如何解决跨域"
+        },
+        {
+          "level": 3,
+          "title": "配置代理",
+          "slug": "配置代理"
+        }
+      ],
+      "lastUpdated": "4/10/2023, 2:42:03 PM",
+      "lastUpdatedTimestamp": 1681108923000
     },
     {
       "frontmatter": {},
@@ -124,6 +203,32 @@ export const siteData = {
       "relativePath": "web/README.md",
       "key": "v-b55f5c00",
       "path": "/web/",
+      "lastUpdated": "3/24/2023, 3:55:24 PM",
+      "lastUpdatedTimestamp": 1679644524000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/web/bw/",
+      "relativePath": "web/bw/README.md",
+      "key": "v-553db0ed",
+      "path": "/web/bw/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "项目链接",
+          "slug": "项目链接"
+        },
+        {
+          "level": 2,
+          "title": "框架架构图",
+          "slug": "框架架构图"
+        },
+        {
+          "level": 2,
+          "title": "架构简介",
+          "slug": "架构简介"
+        }
+      ],
       "lastUpdated": "3/24/2023, 3:55:24 PM",
       "lastUpdatedTimestamp": 1679644524000
     },
@@ -150,41 +255,46 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/share/js/var-let/",
-      "relativePath": "share/js/var-let/README.md",
-      "key": "v-b5841b80",
-      "path": "/share/js/var-let/",
+      "regularPath": "/web/gd/",
+      "relativePath": "web/gd/README.md",
+      "key": "v-d07ca026",
+      "path": "/web/gd/",
       "headers": [
         {
           "level": 2,
-          "title": "示例",
-          "slug": "示例"
+          "title": "中国航信客服工单系统",
+          "slug": "中国航信客服工单系统"
+        },
+        {
+          "level": 2,
+          "title": "项目技术",
+          "slug": "项目技术"
         }
       ],
-      "lastUpdated": "4/10/2023, 2:42:03 PM",
-      "lastUpdatedTimestamp": 1681108923000
+      "lastUpdated": "3/29/2023, 3:45:44 PM",
+      "lastUpdatedTimestamp": 1680075944000
     },
     {
       "frontmatter": {},
-      "regularPath": "/web/bw/",
-      "relativePath": "web/bw/README.md",
-      "key": "v-553db0ed",
-      "path": "/web/bw/",
+      "regularPath": "/web/mnjx/",
+      "relativePath": "web/mnjx/README.md",
+      "key": "v-5ce0132d",
+      "path": "/web/mnjx/",
       "headers": [
         {
           "level": 2,
-          "title": "项目链接",
-          "slug": "项目链接"
+          "title": "模拟教学",
+          "slug": "模拟教学"
         },
         {
           "level": 2,
-          "title": "框架架构图",
-          "slug": "框架架构图"
+          "title": "模拟教学管理端",
+          "slug": "模拟教学管理端"
         },
         {
           "level": 2,
-          "title": "架构简介",
-          "slug": "架构简介"
+          "title": "项目技术",
+          "slug": "项目技术"
         }
       ],
       "lastUpdated": "3/24/2023, 3:55:24 PM",
@@ -231,79 +341,6 @@ export const siteData = {
           "level": 2,
           "title": "项目技术",
           "slug": "项目技术-3"
-        }
-      ],
-      "lastUpdated": "3/29/2023, 3:45:44 PM",
-      "lastUpdatedTimestamp": 1680075944000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/share/nginx/",
-      "relativePath": "share/nginx/README.md",
-      "key": "v-4a0a4881",
-      "path": "/share/nginx/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "如何使用",
-          "slug": "如何使用"
-        },
-        {
-          "level": 2,
-          "title": "如何解决跨域",
-          "slug": "如何解决跨域"
-        },
-        {
-          "level": 3,
-          "title": "配置代理",
-          "slug": "配置代理"
-        }
-      ],
-      "lastUpdated": "4/10/2023, 2:42:03 PM",
-      "lastUpdatedTimestamp": 1681108923000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/mnjx/",
-      "relativePath": "web/mnjx/README.md",
-      "key": "v-5ce0132d",
-      "path": "/web/mnjx/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "模拟教学",
-          "slug": "模拟教学"
-        },
-        {
-          "level": 2,
-          "title": "模拟教学管理端",
-          "slug": "模拟教学管理端"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
-        }
-      ],
-      "lastUpdated": "3/24/2023, 3:55:24 PM",
-      "lastUpdatedTimestamp": 1679644524000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/web/gd/",
-      "relativePath": "web/gd/README.md",
-      "key": "v-d07ca026",
-      "path": "/web/gd/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "中国航信客服工单系统",
-          "slug": "中国航信客服工单系统"
-        },
-        {
-          "level": 2,
-          "title": "项目技术",
-          "slug": "项目技术"
         }
       ],
       "lastUpdated": "3/29/2023, 3:45:44 PM",
@@ -492,13 +529,13 @@ export const siteData = {
             ]
           },
           {
-            "title": "SEO优化",
+            "title": "SSR",
             "path": "/share/next-ssr/",
             "collapsable": false,
             "sidebarDepth": 1,
             "children": [
               {
-                "title": "SSR与静态生成",
+                "title": "vue-cli&nextjs",
                 "path": "/share/next-ssr/",
                 "collapsable": false,
                 "sidebarDepth": 1

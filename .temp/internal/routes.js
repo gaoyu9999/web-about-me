@@ -9,28 +9,16 @@ import GlobalLayout from "D:\\deskTools\\blog\\vuepressdir\\node_modules\\@vuepr
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-7e4ff3cd",
-    path: "/share/linux/",
+    name: "v-71d4f21d",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7e4ff3cd").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-71d4f21d").then(next)
     },
   },
   {
-    path: "/share/linux/index.html",
-    redirect: "/share/linux/"
-  },
-  {
-    name: "v-37cfbc2d",
-    path: "/share/hkgd/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-37cfbc2d").then(next)
-    },
-  },
-  {
-    path: "/share/hkgd/index.html",
-    redirect: "/share/hkgd/"
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-ca051d18",
@@ -45,54 +33,6 @@ export const routes = [
     redirect: "/share/js/sjjg/"
   },
   {
-    name: "v-d6487da6",
-    path: "/share/next-ssr/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d6487da6").then(next)
-    },
-  },
-  {
-    path: "/share/next-ssr/index.html",
-    redirect: "/share/next-ssr/"
-  },
-  {
-    name: "v-71d4f21d",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-71d4f21d").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
-    name: "v-b55f5c00",
-    path: "/web/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b55f5c00").then(next)
-    },
-  },
-  {
-    path: "/web/index.html",
-    redirect: "/web/"
-  },
-  {
-    name: "v-3bd326aa",
-    path: "/web/eu-fy/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3bd326aa").then(next)
-    },
-  },
-  {
-    path: "/web/eu-fy/index.html",
-    redirect: "/web/eu-fy/"
-  },
-  {
     name: "v-b5841b80",
     path: "/share/js/var-let/",
     component: GlobalLayout,
@@ -105,28 +45,40 @@ export const routes = [
     redirect: "/share/js/var-let/"
   },
   {
-    name: "v-553db0ed",
-    path: "/web/bw/",
+    name: "v-37cfbc2d",
+    path: "/share/hkgd/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-553db0ed").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-37cfbc2d").then(next)
     },
   },
   {
-    path: "/web/bw/index.html",
-    redirect: "/web/bw/"
+    path: "/share/hkgd/index.html",
+    redirect: "/share/hkgd/"
   },
   {
-    name: "v-4344d48d",
-    path: "/web/ks/",
+    name: "v-d6487da6",
+    path: "/share/next-ssr/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4344d48d").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d6487da6").then(next)
     },
   },
   {
-    path: "/web/ks/index.html",
-    redirect: "/web/ks/"
+    path: "/share/next-ssr/index.html",
+    redirect: "/share/next-ssr/"
+  },
+  {
+    name: "v-7e4ff3cd",
+    path: "/share/linux/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7e4ff3cd").then(next)
+    },
+  },
+  {
+    path: "/share/linux/index.html",
+    redirect: "/share/linux/"
   },
   {
     name: "v-4a0a4881",
@@ -141,16 +93,40 @@ export const routes = [
     redirect: "/share/nginx/"
   },
   {
-    name: "v-5ce0132d",
-    path: "/web/mnjx/",
+    name: "v-b55f5c00",
+    path: "/web/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5ce0132d").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b55f5c00").then(next)
     },
   },
   {
-    path: "/web/mnjx/index.html",
-    redirect: "/web/mnjx/"
+    path: "/web/index.html",
+    redirect: "/web/"
+  },
+  {
+    name: "v-553db0ed",
+    path: "/web/bw/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-553db0ed").then(next)
+    },
+  },
+  {
+    path: "/web/bw/index.html",
+    redirect: "/web/bw/"
+  },
+  {
+    name: "v-3bd326aa",
+    path: "/web/eu-fy/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3bd326aa").then(next)
+    },
+  },
+  {
+    path: "/web/eu-fy/index.html",
+    redirect: "/web/eu-fy/"
   },
   {
     name: "v-d07ca026",
@@ -163,6 +139,30 @@ export const routes = [
   {
     path: "/web/gd/index.html",
     redirect: "/web/gd/"
+  },
+  {
+    name: "v-5ce0132d",
+    path: "/web/mnjx/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5ce0132d").then(next)
+    },
+  },
+  {
+    path: "/web/mnjx/index.html",
+    redirect: "/web/mnjx/"
+  },
+  {
+    name: "v-4344d48d",
+    path: "/web/ks/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4344d48d").then(next)
+    },
+  },
+  {
+    path: "/web/ks/index.html",
+    redirect: "/web/ks/"
   },
   {
     name: "v-2cf80ecd",
